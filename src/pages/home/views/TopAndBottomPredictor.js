@@ -7,7 +7,7 @@ const TopAndBottomPredictor = () => {
   return (
     <div className={styles.topAndBottomPredictorContainer}>
       <div className={styles.blackBG}></div>
-      <div style={{ marginBottom: "100px", marginLeft: "50%", zIndex: 1 }}>
+      <div style={{ marginBottom: "100px", marginLeft: "46%", zIndex: 1 }}>
         <p className={styles.yearlyTitle}>
           Want to know Top 10 and bottom 10 <br />
           <span style={{ color: "#ED1D25" }}>PREDICTORS</span> during 2022?
