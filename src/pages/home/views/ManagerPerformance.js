@@ -47,8 +47,7 @@ const ManagerPerformance = () => {
         <div className={styles.info}>
           <div>
             <p>
-              Jim Cramer made 1,500 <br />
-              stock predictions in 2022. <br />
+              Jim Cramer made 1,500 stock predictions in 2022. <br />
               <span style={{ color: "#ED1D25" }}>How was his performance?</span>
             </p>
             <Button

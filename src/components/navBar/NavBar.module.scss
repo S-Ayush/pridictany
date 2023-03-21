@@ -1,7 +1,12 @@
+.navbar {
+  width: 100vw;
+  overflow: scroll;
+}
 .container {
   display: flex;
   align-items: center;
   padding: 17px 13px 9px;
+  // width: fit-content;
   .navlinkContainer {
     ul {
       list-style-type: none;
@@ -27,5 +32,6 @@
     font-size: 17px;
     color: #000000;
     cursor: pointer;
+    white-space: nowrap;
   }
 }
