@@ -14,6 +14,7 @@ const Button = ({ children, style, hoverText = null }) => {
         borderRadius: "4px",
         height: "32px",
         cursor: "pointer",
+        whiteSpace: "nowrap",
         ...style,
       }}
       onMouseEnter={() => setIsHovered(true)}
