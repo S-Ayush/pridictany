@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <NavBar />
-      <div style={{ height: "calc(100vh - 120px)", overflow: "auto" }}>
+      <div style={{ height: "-webkit-fill-available", overflow: "auto" }}>
         {children}
         <Footer />
       </div>
