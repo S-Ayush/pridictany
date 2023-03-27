@@ -1,0 +1,9 @@
+.logoContainer {
+  width: 300%;
+  @media screen and (max-width: 1450px) {
+    width: 280px;
+  }
+  @media screen and (max-width: 1250px) {
+    width: 288px;
+  }
+}
